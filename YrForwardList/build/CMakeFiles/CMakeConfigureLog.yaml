@@ -1,0 +1,529 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        D:/YrStructures/YrForwardList/build/CMakeFiles/3.30.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/YrStructures/YrForwardList/build/CMakeFiles/3.30.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-yjpe4m"
+      binary: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-yjpe4m"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-yjpe4m'
+        
+        Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_0fb47/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0fb47.dir\\build.make CMakeFiles/cmTC_0fb47.dir/build
+        mingw32-make[1]: Entering directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-yjpe4m'
+        Building C object CMakeFiles/cmTC_0fb47.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0fb47.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_0fb47.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_0fb47.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files (x86)\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Linking C executable cmTC_0fb47.exe
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0fb47.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_0fb47.dir\\objects1.rsp -o cmTC_0fb47.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0fb47.lib -Xlinker /pdb:D:\\YrStructures\\YrForwardList\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yjpe4m\\cmTC_0fb47.pdb -Xlinker /version:0.0 
+        clang version 12.0.0
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\PROGRA~1\\LLVM\\bin
+         "C:\\\\PROGRA~1\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_0fb47.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\PROGRA~1\\\\LLVM\\\\lib\\\\clang\\\\12.0.0\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_0fb47.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_0fb47.lib "/pdb:D:\\\\YrStructures\\\\YrForwardList\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-yjpe4m\\\\cmTC_0fb47.pdb" /version:0.0
+        lld-link: error: undefined symbol: __guard_eh_cont_table
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        
+        lld-link: error: undefined symbol: __guard_eh_cont_count
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_0fb47.dir\\build.make:100: cmTC_0fb47.exe] Error 1
+        mingw32-make[1]: Leaving directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-yjpe4m'
+        mingw32-make: *** [Makefile:126: cmTC_0fb47/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe"
+    directories:
+      source: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-w7qtg2"
+      binary: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-w7qtg2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-w7qtg2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_4b929/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4b929.dir\\build.make CMakeFiles/cmTC_4b929.dir/build
+        mingw32-make[1]: Entering directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-w7qtg2'
+        Building C object CMakeFiles/cmTC_4b929.dir/testCCompiler.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_4b929.dir/testCCompiler.c.obj -MF CMakeFiles\\cmTC_4b929.dir\\testCCompiler.c.obj.d -o CMakeFiles\\cmTC_4b929.dir\\testCCompiler.c.obj -c D:\\YrStructures\\YrForwardList\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w7qtg2\\testCCompiler.c
+        Linking C executable cmTC_4b929.exe
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4b929.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_4b929.dir\\objects1.rsp -o cmTC_4b929.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_4b929.lib -Xlinker /pdb:D:\\YrStructures\\YrForwardList\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w7qtg2\\cmTC_4b929.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_4b929.dir\\linkLibs.rsp
+        lld-link: error: undefined symbol: __guard_eh_cont_table
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        
+        lld-link: error: undefined symbol: __guard_eh_cont_count
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_4b929.dir\\build.make:101: cmTC_4b929.exe] Error 1
+        mingw32-make[1]: Leaving directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-w7qtg2'
+        mingw32-make: *** [Makefile:126: cmTC_4b929/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        D:/YrStructures/YrForwardList/build/CMakeFiles/3.30.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/YrStructures/YrForwardList/build/CMakeFiles/3.30.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-k6ywbn"
+      binary: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-k6ywbn"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-k6ywbn'
+        
+        Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_fb8e6/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fb8e6.dir\\build.make CMakeFiles/cmTC_fb8e6.dir/build
+        mingw32-make[1]: Entering directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-k6ywbn'
+        Building C object CMakeFiles/cmTC_fb8e6.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_fb8e6.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_fb8e6.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_fb8e6.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files (x86)\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Linking C executable cmTC_fb8e6.exe
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fb8e6.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_fb8e6.dir\\objects1.rsp -o cmTC_fb8e6.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_fb8e6.lib -Xlinker /pdb:D:\\YrStructures\\YrForwardList\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ywbn\\cmTC_fb8e6.pdb -Xlinker /version:0.0 
+        clang version 12.0.0
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\PROGRA~1\\LLVM\\bin
+         "C:\\\\PROGRA~1\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_fb8e6.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\PROGRA~1\\\\LLVM\\\\lib\\\\clang\\\\12.0.0\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_fb8e6.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_fb8e6.lib "/pdb:D:\\\\YrStructures\\\\YrForwardList\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-k6ywbn\\\\cmTC_fb8e6.pdb" /version:0.0
+        lld-link: error: undefined symbol: __guard_eh_cont_table
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        
+        lld-link: error: undefined symbol: __guard_eh_cont_count
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_fb8e6.dir\\build.make:100: cmTC_fb8e6.exe] Error 1
+        mingw32-make[1]: Leaving directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-k6ywbn'
+        mingw32-make: *** [Makefile:126: cmTC_fb8e6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe"
+    directories:
+      source: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-d92f0e"
+      binary: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-d92f0e"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-d92f0e'
+        
+        Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ade3d/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ade3d.dir\\build.make CMakeFiles/cmTC_ade3d.dir/build
+        mingw32-make[1]: Entering directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-d92f0e'
+        Building C object CMakeFiles/cmTC_ade3d.dir/testCCompiler.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_ade3d.dir/testCCompiler.c.obj -MF CMakeFiles\\cmTC_ade3d.dir\\testCCompiler.c.obj.d -o CMakeFiles\\cmTC_ade3d.dir\\testCCompiler.c.obj -c D:\\YrStructures\\YrForwardList\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92f0e\\testCCompiler.c
+        Linking C executable cmTC_ade3d.exe
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ade3d.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_ade3d.dir\\objects1.rsp -o cmTC_ade3d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ade3d.lib -Xlinker /pdb:D:\\YrStructures\\YrForwardList\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d92f0e\\cmTC_ade3d.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_ade3d.dir\\linkLibs.rsp
+        lld-link: error: undefined symbol: __guard_eh_cont_table
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        
+        lld-link: error: undefined symbol: __guard_eh_cont_count
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_ade3d.dir\\build.make:101: cmTC_ade3d.exe] Error 1
+        mingw32-make[1]: Leaving directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-d92f0e'
+        mingw32-make: *** [Makefile:126: cmTC_ade3d/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        D:/YrStructures/YrForwardList/build/CMakeFiles/3.30.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/YrStructures/YrForwardList/build/CMakeFiles/3.30.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-t263up"
+      binary: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-t263up"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-t263up'
+        
+        Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_7ca33/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7ca33.dir\\build.make CMakeFiles/cmTC_7ca33.dir/build
+        mingw32-make[1]: Entering directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-t263up'
+        Building C object CMakeFiles/cmTC_7ca33.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7ca33.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_7ca33.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_7ca33.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files (x86)\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Linking C executable cmTC_7ca33.exe
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7ca33.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_7ca33.dir\\objects1.rsp -o cmTC_7ca33.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7ca33.lib -Xlinker /pdb:D:\\YrStructures\\YrForwardList\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t263up\\cmTC_7ca33.pdb -Xlinker /version:0.0 
+        clang version 12.0.0
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\PROGRA~1\\LLVM\\bin
+         "C:\\\\PROGRA~1\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_7ca33.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.40.33807\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\PROGRA~1\\\\LLVM\\\\lib\\\\clang\\\\12.0.0\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_7ca33.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_7ca33.lib "/pdb:D:\\\\YrStructures\\\\YrForwardList\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-t263up\\\\cmTC_7ca33.pdb" /version:0.0
+        lld-link: error: undefined symbol: __guard_eh_cont_table
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        
+        lld-link: error: undefined symbol: __guard_eh_cont_count
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_7ca33.dir\\build.make:100: cmTC_7ca33.exe] Error 1
+        mingw32-make[1]: Leaving directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-t263up'
+        mingw32-make: *** [Makefile:126: cmTC_7ca33/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe"
+    directories:
+      source: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-rbo6gv"
+      binary: "D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-rbo6gv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-rbo6gv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_9be97/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9be97.dir\\build.make CMakeFiles/cmTC_9be97.dir/build
+        mingw32-make[1]: Entering directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-rbo6gv'
+        Building C object CMakeFiles/cmTC_9be97.dir/testCCompiler.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_9be97.dir/testCCompiler.c.obj -MF CMakeFiles\\cmTC_9be97.dir\\testCCompiler.c.obj.d -o CMakeFiles\\cmTC_9be97.dir\\testCCompiler.c.obj -c D:\\YrStructures\\YrForwardList\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rbo6gv\\testCCompiler.c
+        Linking C executable cmTC_9be97.exe
+        "C:\\Program Files (x86)\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9be97.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_9be97.dir\\objects1.rsp -o cmTC_9be97.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9be97.lib -Xlinker /pdb:D:\\YrStructures\\YrForwardList\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rbo6gv\\cmTC_9be97.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_9be97.dir\\linkLibs.rsp
+        lld-link: error: undefined symbol: __guard_eh_cont_table
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        
+        lld-link: error: undefined symbol: __guard_eh_cont_count
+        >>> referenced by msvcrtd.lib(loadcfg.obj):(_load_config_used)
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_9be97.dir\\build.make:101: cmTC_9be97.exe] Error 1
+        mingw32-make[1]: Leaving directory 'D:/YrStructures/YrForwardList/build/CMakeFiles/CMakeScratch/TryCompile-rbo6gv'
+        mingw32-make: *** [Makefile:126: cmTC_9be97/fast] Error 2
+        
+      exitCode: 2
+...
